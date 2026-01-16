@@ -1,0 +1,6 @@
+{
+  "name": "bunjs",
+  "version": "1.0.0",
+  "description": "Bun.js development utilities and commands",
+  "author": "Val Redchenko"
+}

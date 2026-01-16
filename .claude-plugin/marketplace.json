@@ -1,0 +1,84 @@
+{
+  "name": "claude-code-kit",
+  "owner": {
+    "name": "Val Redchenko",
+    "url": "https://github.com/vredchenko"
+  },
+  "plugins": [
+    {
+      "name": "readme",
+      "source": "./plugins/readme",
+      "description": "Commands for generating and managing README files"
+    },
+    {
+      "name": "bunjs",
+      "source": "./plugins/bunjs",
+      "description": "Bun.js development utilities and commands"
+    },
+    {
+      "name": "localdev",
+      "source": "./plugins/localdev",
+      "description": "Local development environment setup and management"
+    },
+    {
+      "name": "playwright",
+      "source": "./plugins/playwright",
+      "description": "Playwright testing utilities and test generation"
+    },
+    {
+      "name": "serenamcp",
+      "source": "./plugins/serenamcp",
+      "description": "Serena MCP server integration for semantic code analysis"
+    },
+    {
+      "name": "gitflow",
+      "source": "./plugins/gitflow",
+      "description": "Git workflow automation and branch management"
+    },
+    {
+      "name": "docs",
+      "source": "./plugins/docs",
+      "description": "Documentation generation and management"
+    },
+    {
+      "name": "adr",
+      "source": "./plugins/adr",
+      "description": "Architecture Decision Records management"
+    },
+    {
+      "name": "pdftools",
+      "source": "./plugins/pdftools",
+      "description": "PDF processing and manipulation utilities"
+    },
+    {
+      "name": "claude-tools",
+      "source": "./plugins/claude-tools",
+      "description": "Claude Code configuration and utility commands"
+    },
+    {
+      "name": "python-dev",
+      "source": "./plugins/python-dev",
+      "description": "Python development utilities and project management"
+    },
+    {
+      "name": "react-dev",
+      "source": "./plugins/react-dev",
+      "description": "React development utilities and component generation"
+    },
+    {
+      "name": "cli-dev",
+      "source": "./plugins/cli-dev",
+      "description": "CLI application development utilities"
+    },
+    {
+      "name": "dotenv",
+      "source": "./plugins/dotenv",
+      "description": "Environment variable management and .env file utilities"
+    },
+    {
+      "name": "dsl",
+      "source": "./plugins/dsl",
+      "description": "Domain-Specific Language utilities"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Playwright testing utilities and test generation",
+  "author": "Val Redchenko"
+}
