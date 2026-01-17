@@ -1,3 +1,5 @@
+> Built with Claude Code, for Claude Code (and you)
+
 # claude-code-kit
 
 Collection of Claude Code plugins and customizations to be selectively used in other projects.
@@ -18,14 +20,14 @@ Then install individual plugins:
 
 ## Available Plugins
 
-### readme
+### docs-readme
 Commands for generating and managing README files.
-- `/readme:generate` - Generate a comprehensive README for your project
+- `/docs-readme:generate` - Generate a comprehensive README for your project
 
-### bunjs
+### bunjs-dev
 Bun.js development utilities and commands.
-- `/bunjs:init` - Initialize a new Bun.js project
-- `/bunjs:test` - Run tests with Bun's test runner
+- `/bunjs-dev:init` - Initialize a new Bun.js project
+- `/bunjs-dev:test` - Run tests with Bun's test runner
 
 ### localdev
 Local development environment setup and management.
@@ -47,15 +49,15 @@ Git workflow automation and branch management.
 - `/gitflow:release` - Prepare a release branch
 - `/gitflow:pr` - Create a pull request
 
-### docs
+### docs-md-ghpages
 Documentation generation and management.
-- `/docs:generate` - Generate documentation for the codebase
-- `/docs:api` - Generate API documentation
+- `/docs-md-ghpages:generate` - Generate documentation for the codebase
+- `/docs-md-ghpages:api` - Generate API documentation
 
-### adr
+### docs-ddr
 Architecture Decision Records management.
-- `/adr:new` - Create a new ADR
-- `/adr:list` - List all ADRs in the project
+- `/docs-ddr:new` - Create a new ADR
+- `/docs-ddr:list` - List all ADRs in the project
 
 ### pdftools
 PDF processing and manipulation utilities.
@@ -93,6 +95,12 @@ Environment variable management and .env file utilities.
 ### dsl
 Domain-Specific Language utilities.
 - Commands coming soon
+
+### webcam-automation
+Webcam capture CLI tool for photographing paper notes.
+- `/webcam-automation:list` - List available video devices
+- `/webcam-automation:caps` - Show camera capabilities and controls
+- `/webcam-automation:snap` - Capture photo at max resolution
 
 ## Creating Your Own Plugins
 
