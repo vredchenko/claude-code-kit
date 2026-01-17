@@ -6,13 +6,13 @@
   },
   "plugins": [
     {
-      "name": "readme",
-      "source": "./plugins/readme",
+      "name": "docs-readme",
+      "source": "./plugins/docs-readme",
       "description": "Commands for generating and managing README files"
     },
     {
-      "name": "bunjs",
-      "source": "./plugins/bunjs",
+      "name": "bunjs-dev",
+      "source": "./plugins/bunjs-dev",
       "description": "Bun.js development utilities and commands"
     },
     {
@@ -36,13 +36,13 @@
       "description": "Git workflow automation and branch management"
     },
     {
-      "name": "docs",
-      "source": "./plugins/docs",
+      "name": "docs-md-ghpages",
+      "source": "./plugins/docs-md-ghpages",
       "description": "Documentation generation and management"
     },
     {
-      "name": "adr",
-      "source": "./plugins/adr",
+      "name": "docs-ddr",
+      "source": "./plugins/docs-ddr",
       "description": "Architecture Decision Records management"
     },
     {
@@ -79,6 +79,11 @@
       "name": "dsl",
       "source": "./plugins/dsl",
       "description": "Domain-Specific Language utilities"
+    },
+    {
+      "name": "webcam-automation",
+      "source": "./plugins/webcam-automation",
+      "description": "Webcam capture CLI tool for photographing paper notes"
     }
   ]
 }
