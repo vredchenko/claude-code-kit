@@ -1,6 +1,6 @@
 {
   "name": "playwright",
-  "version": "1.0.0",
-  "description": "Playwright testing utilities and test generation",
+  "version": "2.0.0",
+  "description": "Browser automation using Playwright for testing, screenshots, and web interaction. Provides best practices for browser management, timing, and cross-browser testing.",
   "author": "Val Redchenko"
 }
