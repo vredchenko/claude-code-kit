@@ -1,0 +1,6 @@
+{
+  "name": "secrets-scanner",
+  "version": "1.0.0",
+  "description": "Detect leaked secrets and credentials using gitleaks, git-secrets, and trufflehog",
+  "author": "Val Redchenko"
+}

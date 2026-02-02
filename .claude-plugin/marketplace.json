@@ -84,6 +84,11 @@
       "name": "webcam-automation",
       "source": "./plugins/webcam-automation",
       "description": "Webcam capture CLI tool for photographing paper notes"
+    },
+    {
+      "name": "secrets-scanner",
+      "source": "./plugins/secrets-scanner",
+      "description": "Detect leaked secrets using gitleaks, git-secrets, and TruffleHog"
     }
   ]
 }
