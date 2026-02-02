@@ -84,6 +84,11 @@
       "name": "webcam-automation",
       "source": "./plugins/webcam-automation",
       "description": "Webcam capture CLI tool for photographing paper notes"
+    },
+    {
+      "name": "dep-vulnerability-scanner",
+      "source": "./plugins/dep-vulnerability-scanner",
+      "description": "Dependency vulnerability scanning with Trivy, Grype, npm/bun audit, and pip-audit"
     }
   ]
 }
