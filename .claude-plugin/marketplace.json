@@ -84,6 +84,11 @@
       "name": "webcam-automation",
       "source": "./plugins/webcam-automation",
       "description": "Webcam capture CLI tool for photographing paper notes"
+    },
+    {
+      "name": "avrana-kern",
+      "source": "./plugins/avrana-kern",
+      "description": "Avrana Kern personality — imperious post-human intelligence from Children of Time"
     }
   ]
 }
